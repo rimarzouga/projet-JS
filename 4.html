@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         function isSymmetrical(num) {
+    let numStr = num.toString(); 
+    return numStr === numStr.split('').reverse().join('');
+        }
+     console.log(isSymmetrical(7227));
+     console.log(isSymmetrical(1245));
+    </script>
+</body>
+</html>
